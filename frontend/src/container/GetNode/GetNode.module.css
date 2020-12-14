@@ -1,0 +1,55 @@
+.node {
+width: 300px;
+}
+.node h2 {
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.node ul {
+    position: relative;
+    background: #fff
+}
+.node ul li {
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0,0,0,.1);
+    transition: transform 0.5s
+}
+.node ul li:hover{
+    transform: scale(1,1);
+    z-index: 100;
+    background: #25bcff;
+    box-shadow: 0 5px 25px rgba(0,0,0,.1);
+    color: #fff;
+}
+form {
+    position: relative;
+  }
+  
+  form input {
+    width: 100%;
+    display: block;
+    font-size: 1em;
+    padding: .625em .85em;
+    padding-right: 7em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    border: 1px solid #bbb;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1) inset, 0 2px 4px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+  
+form input:focus {
+    border-color: #298cda;
+}
+li.lightblue {
+    background: lightblue !important;
+}
